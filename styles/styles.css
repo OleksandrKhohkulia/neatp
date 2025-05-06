@@ -255,3 +255,12 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+.events > div{
+  align-items: unset !important;
+}
+.events > div > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
