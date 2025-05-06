@@ -303,3 +303,6 @@ main .section.highlight {
 .cards.contact-cards > ul{
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
+.cards.board_members > ul{
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
