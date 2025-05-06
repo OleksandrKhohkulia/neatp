@@ -30,7 +30,7 @@ header nav[aria-expanded='true'] {
   min-height: 100dvh;
 }
 
-@media (width >= 900px) {
+@media (width >= 1225px) {
   header nav {
     display: flex;
     justify-content: space-between;
