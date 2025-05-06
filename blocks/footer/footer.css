@@ -39,4 +39,5 @@ footer .embed > div{
 footer .embed-wrapper{
   display: flex;
   justify-content: center;
+  height: 270px;
 }
