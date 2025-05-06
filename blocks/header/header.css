@@ -266,3 +266,9 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+@media (width >= 945px) {
+.section .nav-tools{
+    display: none;
+  }
+}
