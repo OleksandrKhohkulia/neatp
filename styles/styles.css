@@ -306,5 +306,8 @@ main .section.highlight {
 .cards.contact-cards > ul>li, .cards.board-members > ul > li {
   border: none ;
   border-left: 2px solid #c63b3c;
+}
 
+.map{
+  padding: 0 10%;
 }
