@@ -21,3 +21,9 @@ footer .footer p {
 footer .columns img{
   width: auto !important;
 }
+
+
+.embed.footer-media > div{
+  left: 50%;
+  padding-bottom: 20%;
+}
