@@ -264,12 +264,13 @@ main .section.highlight {
   .events > div{
     max-height: 250px;    
   }
-  .events > div > div:nth-of-type(2)>p{
+  .events > div > div:nth-of-type(2)>p, .events > div > div:nth-of-type(2)>picture{
     display: block !important;
     height: 100%;
     width: 100%;
     margin: 0;
   }
+
   .events > div > div:nth-of-type(2) img{
     height: 100%;
     width: auto;
