@@ -257,6 +257,7 @@ main .section.highlight {
 }
 .events > div{
   align-items: unset !important;
+  max-height: 250px;
 }
 .events > div > div{
   display: flex;
@@ -268,4 +269,8 @@ main .section.highlight {
   height: 100%;
   width: 100%;
   margin: 0;
+}
+.events > div > div:nth-of-type(2) img{
+  height: 100%;
+  width: auto;
 }
