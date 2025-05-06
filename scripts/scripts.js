@@ -131,7 +131,7 @@ loadPage();
 const eventList = document.querySelectorAll(".events > div > div:nth-of-type(1)");
 if(eventList){
   let i = 0;
-  for (const element of object) {
+  for (const element of eventList) {
     console.log(element)
     if(i = 0) {
       element.style.backgroundColor = "#e89696"  
