@@ -257,7 +257,8 @@ main .section.highlight {
 }
 .events > div{
   align-items: unset !important;
-  border-bottom: 2px solid #c63b3c;
+  /* border-bottom: 2px solid #c63b3c; */
+  box-shadow: 1px 1px 4px 1px;
 }
 @media (width >= 900px){
   .events > div{
@@ -274,13 +275,18 @@ main .section.highlight {
     width: auto;
   }
 }
+.events{
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
 
 .events >div >div{
   min-height: 50px;
 }
 
 .events > div:nth-of-type(1){
-  border-top: 2px solid #c63b3c;
+  /* border-top: 2px solid #c63b3c; */
 }
 .events > div > div{
   display: flex;
