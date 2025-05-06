@@ -16,8 +16,8 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #c63b3c;
+  --link-hover-color: #df2e2e;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -257,7 +257,7 @@ main .section.highlight {
 }
 .events > div{
   align-items: unset !important;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #c63b3c;
 }
 @media (width >= 900px){
   .events > div{
@@ -275,7 +275,7 @@ main .section.highlight {
   }
 }
 .events > div:nth-of-type(1){
-  border-top: 2px solid black;
+  border-top: 2px solid #c63b3c;
 }
 .events > div > div{
   display: flex;
