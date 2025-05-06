@@ -300,3 +300,6 @@ main .section.highlight {
 .main-imgs img {
   width: auto !important;
 }
+.cards.contact-cards > ul{
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
