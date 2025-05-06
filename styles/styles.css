@@ -291,3 +291,12 @@ main .section.highlight {
   align-items: flex-start;
   justify-content: flex-start ;
 }
+
+.main-imgs >div> div{
+  display: flex;
+  justify-content: center;
+}
+
+.main-imgs img {
+  width: auto !important;
+}
