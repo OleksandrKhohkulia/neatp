@@ -266,7 +266,7 @@ main .section.highlight {
   }
 
   .events > div:hover{
-    transform: scale(1.05);
+    transform: scale(1.10);
   }
 
   .events > div > div:nth-of-type(2)>p, .events > div > div:nth-of-type(2)>picture{
