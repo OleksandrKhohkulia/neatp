@@ -264,7 +264,7 @@ main .section.highlight {
     max-height: 250px;    
   }
   .events > div > div:nth-of-type(2)>p{
-    display: block;
+    display: block !important;
     height: 100%;
     width: 100%;
     margin: 0;
