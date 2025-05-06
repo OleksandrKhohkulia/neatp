@@ -27,7 +27,7 @@ footer .embed{
 }
 
 footer .embed > div{
-  left: 50% !important;
+  left: 0% !important;
   padding-bottom: 0 !important;
   position: absolute !important;
   height: 130px !important;
@@ -40,4 +40,10 @@ footer .embed-wrapper{
   display: flex;
   justify-content: center;
   height: 170px;
+}
+
+@media (width >= 900px) {
+  footer .embed > div{
+    left: 50% !important;
+  }
 }
