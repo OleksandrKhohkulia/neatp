@@ -300,9 +300,9 @@ main .section.highlight {
 .main-imgs img {
   width: auto !important;
 }
-.cards.contact-cards > ul{
+.cards.contact-cards > ul, .cards.board-members > ul{
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
-.cards.board-members > ul{
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+.cards.board-members > ul > li {
+  border: 0 0 0 2px solid #c63b3c;
 }
