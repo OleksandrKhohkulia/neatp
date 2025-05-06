@@ -132,7 +132,7 @@ const eventList = document.querySelectorAll(".events > div > div:nth-of-type(1)"
 if(eventList){
   console.log(eventList)
   let i = 0;
-  eventList.forEach(element => {
+  for (const element of object) {
     if(i = 0) {
       element.style.backgroundColor = "#e89696"  
       i++
@@ -145,6 +145,6 @@ if(eventList){
       element.style.backgroundColor = "#c63b3c"
       i = 0;
     }
-
-  });
+    
+  }
 }
