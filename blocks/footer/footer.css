@@ -22,8 +22,12 @@ footer .columns img{
   width: auto !important;
 }
 
+footer .embed{
+  margin: 0 !important;
+}
 
 footer .embed > div{
-  left: 50% !important;
+  left: 76% !important;
   padding-bottom: 20% !important;
+  bottom: 35px;
 }
