@@ -279,5 +279,6 @@ main .section.highlight {
   width: auto;
 }
 .events > div > div:nth-of-type(3){
-  align-self: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start ;
 }
