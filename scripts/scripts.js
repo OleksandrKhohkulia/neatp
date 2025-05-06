@@ -128,7 +128,7 @@ async function loadPage() {
 
 loadPage();
 
-const eventList = document.querySelectorAll(".events");
+const eventList = document.querySelectorAll(".events > div > div:nth-of-type(1)");
 if(eventList){
   console.log('exists')
   let i = 0;
