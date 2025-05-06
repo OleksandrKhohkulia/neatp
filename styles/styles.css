@@ -264,3 +264,8 @@ main .section.highlight {
   align-items: center;
   justify-content: center;
 }
+.events > div > div:nth-of-type(2)>p{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
