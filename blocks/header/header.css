@@ -269,6 +269,9 @@ header nav .nav-tools {
 
 @media (width >= 1130px) {
 .section .nav-tools{
-    display: none;
+    display: block;
   }
+}
+.section .nav-tools{
+  display: none;
 }
