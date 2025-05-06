@@ -304,5 +304,5 @@ main .section.highlight {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 .cards.board-members > ul > li {
-  border: 0 0 0 2px solid #c63b3c;
+  border: 0 0 0 2px solid #c63b3c !important;
 }
