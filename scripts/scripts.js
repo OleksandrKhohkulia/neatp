@@ -130,7 +130,7 @@ loadPage();
 
 const eventList = document.querySelectorAll(".events > div > div:nth-of-type(1)");
 if(eventList){
-  console.log('exists')
+  console.log(eventList)
   let i = 0;
   eventList.forEach(element => {
     if(i = 0) {
