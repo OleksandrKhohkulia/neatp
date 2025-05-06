@@ -23,7 +23,7 @@ footer .columns img{
 }
 
 
-.embed.footer-media > div{
-  left: 50%;
-  padding-bottom: 20%;
+footer .embed > div{
+  left: 50% !important;
+  padding-bottom: 20% !important;
 }
