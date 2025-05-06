@@ -30,8 +30,8 @@ footer .embed > div{
   left: 50% !important;
   padding-bottom: 0 !important;
   position: absolute !important;
-  height: 130px;
-  width: 290px;
+  height: 130px !important;
+  width: 290px !important;
 }
 #find-us-on-facebook{
   margin-top: 0;
