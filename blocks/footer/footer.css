@@ -27,9 +27,11 @@ footer .embed{
 }
 
 footer .embed > div{
-  left: 76% !important;
-  padding-bottom: 20% !important;
-  bottom: 35px;
+  left: 50% !important;
+  padding-bottom: 0 !important;
+  position: absolute !important;
+  height: 130px;
+  width: 290px;
 }
 #find-us-on-facebook{
   margin-top: 0;
