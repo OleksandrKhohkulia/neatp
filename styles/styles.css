@@ -278,6 +278,6 @@ main .section.highlight {
   height: 100%;
   width: auto;
 }
-/* #e89696
-#d3595b
-#c63b3c */
+.events > div > div:nth-of-type(3){
+  align-self: flex-start;
+}
