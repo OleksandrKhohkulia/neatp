@@ -256,20 +256,6 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-
-
-
-  .events picture{
-    height: 100%;
-    width: 100%;
-
-  }
-
-  .events img{
-    height: 100%;
-    width: auto;
-  }
-
 .main-imgs >div> div{
   display: flex;
   justify-content: center;
