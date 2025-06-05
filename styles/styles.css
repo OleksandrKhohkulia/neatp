@@ -261,7 +261,7 @@ main .section.highlight {
   justify-content: center;
 }
 
-.main-imgs img {
+.main-imgs img, .events img {
   width: auto !important;
 }
 .cards.contact-cards > ul, .cards.board-members > ul{
