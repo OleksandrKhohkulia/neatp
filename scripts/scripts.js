@@ -127,22 +127,3 @@ async function loadPage() {
 }
 
 loadPage();
-
-const eventList = document.querySelectorAll(".events > div > div:nth-of-type(1)");
-if(eventList){
-  let i = 0;
-  for (const element of eventList) {
-    if(i == 0) {
-      element.style.backgroundColor = "#e89696"  
-      i++
-    }  
-    else if(i == 1) {
-      element.style.backgroundColor = "#d3595b"
-      i++
-    }
-    else if(i == 2) {
-      element.style.backgroundColor = "#c63b3c"
-      i = 0;
-    }    
-  }
-}
